@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* @keyframes zoomPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.zoomPulse {
+  animation: zoomPulse 5s ease-in-out infinite;
+  
+} */
+
+@keyframes zoomPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 55px rgb(137, 3, 173);
+  }
+  50% {
+    transform: scale(1.07);
+    box-shadow: 0 0 80px rgba(244, 2, 212, 0.491);
+  }
+}
+
+.zoomPulse {
+  animation: zoomPulse 5s ease-in-out infinite;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+/* @keyframes zoomPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 55px rgb(137, 3, 173);
+  }
+  50% {
+    transform: scale(1.07);
+    box-shadow: 0 0 80px rgba(244, 2, 212, 0.491);
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.zoomPulse {
+  animation: zoomPulse 5s ease-in-out infinite;
+  border-radius: 9999px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff4ec5, #be3ded, #ff4ec5);
+  background-size: 300% 300%;
+  animation:
+    zoomPulse 5s ease-in-out infinite,
+    gradientMove 8s ease infinite;
+} */
