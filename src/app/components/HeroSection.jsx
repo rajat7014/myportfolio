@@ -82,7 +82,7 @@ const HeroSection = () => {
             />
           </div> */}
 
-          <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative zoomPulse'>
+          <div className='w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative zoomPulse'>
             <Image
               src='/images/hero-image5.png'
               alt='hero image'

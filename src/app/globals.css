@@ -39,7 +39,7 @@ body {
   
 } */
 
-@keyframes zoomPulse {
+/* @keyframes zoomPulse {
   0%,
   100% {
     transform: scale(1);
@@ -55,9 +55,9 @@ body {
   animation: zoomPulse 5s ease-in-out infinite;
   border-radius: 9999px;
   overflow: hidden;
-}
+} */
 
-/* @keyframes zoomPulse {
+@keyframes zoomPulse {
   0%,
   100% {
     transform: scale(1);
@@ -90,4 +90,4 @@ body {
   animation:
     zoomPulse 5s ease-in-out infinite,
     gradientMove 8s ease infinite;
-} */
+}
