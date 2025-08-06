@@ -26,7 +26,7 @@ const HeroSection = () => {
                 1000,
                 'Web Developer',
                 1000,
-                'Next.js Developer',
+                'Programmer',
                 1000,
                 'Problem Solver',
                 1000,
@@ -84,7 +84,7 @@ const HeroSection = () => {
 
           <div className='w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative zoomPulse'>
             <Image
-              src='/images/hero-image5.png'
+              src='/images/hero-image10.png'
               alt='hero image'
               fill
               className='object-cover'
