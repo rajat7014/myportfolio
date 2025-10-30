@@ -32,8 +32,8 @@ const projectsData = [
       'A modern online shopping platform with product listings, category filters, cart functionality, and secure user authentication. Built using Next.js, MongoDB, and Tailwind CSS.',
     image: '/images/projects/3.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/',
+    gitUrl: 'https://github.com/rajat7014/Pizza-hub',
+    previewUrl: 'https://mega-mart-five.vercel.app/',
   },
   {
     id: 4,

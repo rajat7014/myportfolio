@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: 'Rajatech',
-  description: 'Portfolio of Rajat Kumar (Rajattech)',
+  description: 'Portfolio of Rajat Kumar (Rajatech)',
   icons: {
     icon: '/Favicon2.jpg',
   },
