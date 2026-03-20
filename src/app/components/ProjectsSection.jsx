@@ -17,13 +17,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Social Media Application',
+    title: 'Messages and video confrencing web app',
     description:
-      'A minimal Instagram-inspired app with login, post viewing, and redirection features. Focused on backend functionality using Next.js, MongoDB, and JWT authentication.',
+      'Built real-time chat + audio/video calling using Mediasoup & Socket.io.• Added authentication, file uploads, scheduling & secured backend.Tech Stack: React.js, Vite, Redux, Styled Components, Mediasoup, Node.js, MongoDB',
     image: '/images/projects/2.png',
     tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/',
+    gitUrl: 'https://github.com/rajat7014/waveon',
+    previewUrl: 'https://canyon-2.onrender.com/',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const projectsData = [
       'A modern online shopping platform with product listings, category filters, cart functionality, and secure user authentication. Built using Next.js, MongoDB, and Tailwind CSS.',
     image: '/images/projects/3.png',
     tag: ['All', 'Web'],
-    gitUrl: 'https://github.com/rajat7014/Pizza-hub',
+    gitUrl: 'https://github.com/rajat7014/Mega-mart',
     previewUrl: 'https://mega-mart-five.vercel.app/',
   },
   {
